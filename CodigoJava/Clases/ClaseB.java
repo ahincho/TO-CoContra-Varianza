@@ -25,7 +25,7 @@ public class ClaseB implements B {
     @Override
     public String toString() {
 
-        return "Objeto de Clase B.\n";
+        return "Objeto de Clase B.";
 
     }
 

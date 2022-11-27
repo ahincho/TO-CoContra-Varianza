@@ -34,7 +34,7 @@ public class ClaseC implements C {
     @Override
     public String toString() {
 
-        return "Objeto de Clase C.\n";
+        return "Objeto de Clase C.";
 
     }
 
