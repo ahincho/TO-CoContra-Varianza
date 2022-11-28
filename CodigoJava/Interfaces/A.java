@@ -5,6 +5,6 @@ package CodigoJava.Interfaces;
 
 public interface A {
 
-    public A fooA(A a);
+    public void fooA();
 
 }

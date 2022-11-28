@@ -1,31 +1,21 @@
 
 package CodigoJava.Clases;
 
-import CodigoJava.Interfaces.A;
 import CodigoJava.Interfaces.B;
 
 public class ClaseB implements B {
 
     @Override
-    public A fooA(A a) {
+    public void fooA() {
         
-        System.out.println(a);
-        return a;
+        fooB();
 
     }
 
     @Override
-    public B fooB(B b) {
+    public void fooB() {
 
-        System.out.println(b);
-        return b;
-
-    }
-
-    @Override
-    public String toString() {
-
-        return "Objeto de Clase B.";
+        System.out.println("Objeto de Clase B.");
 
     }
 

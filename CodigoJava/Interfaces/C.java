@@ -5,6 +5,6 @@ package CodigoJava.Interfaces;
 
 public interface C extends B {
     
-    public C fooC(C c);
+    public void fooC();
 
 }
